@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main -Entry point
- *
- * Return: always 0 (success)
+ * main - Entry point
+ * Description
+ * Return: always (0)
  */
-
 int main(void)
 {
 	int n;
@@ -16,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		 printf("%i is positive\n", n);
+		printf("%i is positive\n", n);
 	}
 	else if (n == 0)
 	{
