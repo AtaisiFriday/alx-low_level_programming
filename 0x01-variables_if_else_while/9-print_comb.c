@@ -6,13 +6,15 @@
  */
 int main(void)
 {
-	char lc = 'a';
+	int n;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+	for (n = 0; n <= 9; n++)
 	{
-	if (lc != 'e' && lc != 'q')
+		putchar(n + '0');
+	if (n < 9)
 	{
-		putchar(lc);
+		putchar(',');
+		putchar(' ');
 	}
 	}
 		putchar('\n');
