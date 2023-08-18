@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main -Entry point
- * Description
- * Return: always 0 (success)
+ * _isdigit - checks for a digit
+ * @c: The variable to be checked
+ * Return: (1) if variable is a digit and (0) if otherwise
  */
 int _isdigit(int c)
 
