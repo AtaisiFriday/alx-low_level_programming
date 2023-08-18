@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main -Entry point
- * Description
- * Return: always 0 (success)
+ * _isupper - check for upper case alphabets
+ * @c:binput character
+ * Return: (1) if true and (0) if false
  */
 int _isupper(int c)
 
